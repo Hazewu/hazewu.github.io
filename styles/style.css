@@ -1,0 +1,35 @@
+html {
+    /* px 表示 “像素pixels”： 基础字号伪 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #ebbf74da;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: cornsilk;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li{
+    font-size: 16px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img{
+    display: block;    /* 可以赋予块元素的功能，才能让图片居中 */
+    margin: 0 auto;
+}
